@@ -1,0 +1,16 @@
+CSP Final
+Raman Kc
+Url->https://gist.github.com/TheLukeGuy/49294d3c7b0fdf5f02d8f64a0de30b95
+Code
+# coding: utf-8
+import random 
+
+while True:  #if true, get asked to enter a question and then a random answer wil appear.
+	eight_question = raw_input('Please ask a question and press enter: ')#asks question
+	eight_ball = ['Signs point to yes.','Yes.','Reply, hazy, try again.','Without a doubt.','My sources say no.','As I see it, yes.','You may rely on it.','Concentrate and ask again.','Outlook not so good.','It is decidedly so.','Better not tell you now.','Very doubtful.','Yes - definitely.','It is certain.','Cannot predict now.','Most likely.','Ask again later.','My reply is no.','Outlook good.','Don\'t count on it.']#respones picked randomly from list
+	eight_answer = random.choice(eight_ball)#random response from list
+	print(eight_answer)#print the eightball response
+	print('\n')#prints answer
+//Insert Name into this Document on line 2
+
+//Insert url where you forked a repository
